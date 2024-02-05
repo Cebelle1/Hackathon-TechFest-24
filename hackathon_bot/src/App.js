@@ -9,7 +9,6 @@ import GrammarFixer from './GrammarFixer.js'
 import Translator from './Translator.js';
 
 const OPENAI_API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
-//const OPENAI_API_KEY = "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";
 console.log(OPENAI_API_KEY);
 
 function App() {

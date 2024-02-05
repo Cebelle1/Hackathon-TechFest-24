@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The env file which contains the API keys have been omitted, please obtain your OpenAI API key if you wish to replicate this App.
 
 ## Available Scripts
 

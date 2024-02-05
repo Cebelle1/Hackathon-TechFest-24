@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: white;  
+  /*background: rgb(3,0,31);*/
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #446688;
+  margin-bottom: 1rem;
+  padding-left: 15%;
+}
+
+textarea {
+  width: 70%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 10rem;
+  margin-bottom: 1rem;
+  margin-left: 200px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.output-box {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  width:65%;
+  margin: 0 auto;
+  margin-left: 24%;
+  height: 500px;
+}
+
+.output-box pre {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  tab-size: 2;
+  text-align: left;
+  
+}
+
+.output-box code {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  overflow-x: auto;
+  overflow-y: scroll;
+  text-align: left;
+  height: 500px;
+}
